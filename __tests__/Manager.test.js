@@ -9,7 +9,7 @@ test("set officeNumber by constructor", () => {
 
 test("get role by getRole", () => {
     const role = "manager";
-    const engineer = new Engineer("John", 1, "JSmith@email.com", "555.555.5555");
+    const engineer = new Manager("John", 1, "JSmith@email.com", "555.555.5555");
   
     expect(engineer.getRole()).toBe(role);
   });
