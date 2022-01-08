@@ -1,11 +1,25 @@
-const Intern = require('../lib/Intern');
+const Intern = require("../lib/Intern");
 
-test('creates an intern object', () => {
-    const intern = new Intern('Dave');
+test("set school by constructor", () => {
+  const school = "Rutgers";
+  const intern = new Intern("John", 1, "JSmith@email.com", school);
 
-    expect(intern.name).toBe('Dave');
-    expect(intern.school).toBe('Rutgers University');
-})
+  expect(intern.school).toBe("Rutgers");
+});
+
+test("get school by getSchool", () => {
+  const school = "Rutgers";
+  const intern = new Intern("John", 1, "JSmith@email.com", school);
+
+  expect(intern.getSchool()).toBe(school);
+});
+
+test("get role by getRole", () => {
+  const role = "intern";
+  const intern = new Intern("John", 1, "JSmith@email.com", "Rutgers");
+
+  expect(intern.getRole()).toBe(role);
+});
 
 // test("gets intern's school", () => {
 //     const intern = new Intern
