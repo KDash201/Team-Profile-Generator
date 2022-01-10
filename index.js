@@ -15,7 +15,7 @@ const render = require("./src/page-template");
 const employeeArray = [];
 
 function initMenu() {
-  // Create a Manager/Manger prompts
+  // Create Manager prompts
   function createManager() {
     console.log("Create your team");
     inquirer
@@ -81,6 +81,7 @@ function initMenu() {
   }
 
   function teamBuild() {
+    // Choice to add more members or complete team build
     inquirer
       .prompt([
         {
@@ -108,6 +109,7 @@ function initMenu() {
       });
   }
 
+  // Create Engineer prompts
   function createEngineer() {
     inquirer
       .prompt([
@@ -170,6 +172,7 @@ function initMenu() {
       });
   }
 
+  // Create Intern prompts
   function createIntern() {
     inquirer
       .prompt([
@@ -232,6 +235,7 @@ function initMenu() {
       });
   }
 
+  // Generate team/Write to Html
   function genTeam() {
     if (!fs.existsSync(OUTPUT_DIR)) {
       fs.mkdirSync(OUTPUT_DIR);
