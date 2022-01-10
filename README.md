@@ -9,3 +9,4 @@ Usage
 To use this app go to the command line and type "node index". Next answer the prompts in best possible detail. When complete the app will genrate a "newReadMe.md" file within the assets directory.
 
 Screenshot
+![picture of team profile app](./images\team-prof.png)
