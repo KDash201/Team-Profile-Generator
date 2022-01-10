@@ -95,7 +95,7 @@ function initMenu() {
           ],
         },
       ])
-      .then(userChoice => {
+      .then((userChoice) => {
         switch (userChoice.memberChoice) {
           case "Engineer":
             createEngineer();
