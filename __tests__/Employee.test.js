@@ -48,6 +48,3 @@ test("get role by getRole", () => {
   
     expect(employee.getRole()).toBe(role);
   });
-
-// expect(employee.id).toEqual(expect.any(Number));
-// expect(employee.email).toEqual(expect.any(Number));

@@ -20,7 +20,3 @@ test("get role by getRole", () => {
 
   expect(intern.getRole()).toBe(role);
 });
-
-// test("gets intern's school", () => {
-//     const intern = new Intern
-// })
