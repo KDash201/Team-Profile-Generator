@@ -9,7 +9,7 @@ Usage
 To use this app go to the command line and type "node index". Next answer the prompts in best possible detail. When complete the app will genrate a "index.html" file within the output directory.
 
 ## Screenshot
-![picture of team profile app](./images\team-prof.png)
+![picture of team profile app](./images/team-prof.png)
 
 ## Demo
 https://watch.screencastify.com/v/zkZxPS3MBEvBYNt9HY6g
