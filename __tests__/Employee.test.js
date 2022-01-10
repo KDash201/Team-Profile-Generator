@@ -8,7 +8,7 @@ test("set name by constructor", () => {
 });
 
 test("set id by constructor", () => {
-  const id = 1;
+  const id = "1";
   const employee = new Employee("John Smith", id);
 
   expect(employee.id).toBe(1);
